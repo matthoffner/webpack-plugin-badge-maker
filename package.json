@@ -1,0 +1,27 @@
+{
+  "name": "webpack-plugin-badge-maker",
+  "version": "0.0.1",
+  "description": "webpack plugin for generating readme badges",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthoffner/webpack-plugin-badge-maker.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "badge-maker"
+  ],
+  "author": "Matt Hoffner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthoffner/webpack-plugin-badge-maker/issues"
+  },
+  "homepage": "https://github.com/matthoffner/webpack-plugin-badge-maker#readme",
+  "dependencies": {
+    "badge-maker": "^3.3.0"
+  }
+}
