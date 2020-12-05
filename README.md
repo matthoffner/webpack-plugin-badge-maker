@@ -9,9 +9,8 @@ new BundleSizeBadgePlugin({
     assets: ['vendors', 'main'], // generates vendors.svg and main.svg
     options: {
         label: 'size', // default
-        decimalCount: 2, // default
         color: 'green', // default
-        badgeLocation: './dist/' // default
+        svgDir: './dist/' // default
     }
 });
 ```
