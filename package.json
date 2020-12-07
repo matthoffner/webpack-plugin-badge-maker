@@ -1,6 +1,6 @@
 {
   "name": "webpack-plugin-badge-maker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "webpack plugin for generating readme badges",
   "main": "src/index.js",
   "scripts": {
