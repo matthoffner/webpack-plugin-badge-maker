@@ -3,7 +3,7 @@ const fs = require('fs');
 
 const assetMatch = (assets, entry) => assets.find(asset => entry.indexOf(asset) > -1);
 
-export class BundleSizeBadgePlugin {
+class BundleSizeBadgePlugin {
     constructor({ assets = [], options = {} }) {
         this.assets = assets;
         this.options = {
@@ -36,4 +36,4 @@ export class BundleSizeBadgePlugin {
     }
 }
 
-export default BundleSizeBadgePlugin;
+module.exports.BundleSizeBadgePlugin = BundleSizeBadgePlugin;
