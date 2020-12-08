@@ -17,7 +17,7 @@ class BundleSizeBadgePlugin {
     apply(compiler) {
         compiler.hooks.done.tap('BundleSizeBadgePlugin', ({ compilation }) =>
             Object.values(compilation.assets).forEach(tracked => {
-                if (entry.endsWith(`.${options.extension}`)) {
+                if (tracked.existsAt.endsWith(`.${this.options.extension}`)) {
                     const badgeName = assetMatch(this.assets, tracked.existsAt);
                     if (badgeName) {
                         fs.writeFileSync(
